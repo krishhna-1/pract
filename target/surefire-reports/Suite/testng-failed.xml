@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Wst(failed)" verbose="0">
+    <parameter name="browser" value="me"/>
+    <classes>
+      <class name="TestCases.Tc_001_AccountRegisteration">
+        <methods>
+          <include name="test_accountRegisteration"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.Tc_001_AccountRegisteration -->
+    </classes>
+  </test> <!-- Wst(failed) -->
+</suite> <!-- Failed suite [Suite] -->
